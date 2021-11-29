@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutAskGoSource" xml:space="preserve">
+    <value>Proje sayfasına gitmek ister misiniz?</value>
+  </data>
+  <data name="aboutTitle" xml:space="preserve">
+    <value>{0} Hakkında</value>
+  </data>
+  <data name="askCount" xml:space="preserve">
+    <value>Önemli işlemler için sorma sayısı:</value>
+  </data>
+  <data name="chkSaveAndCloseInOneSec" xml:space="preserve">
+    <value>Ayarları kaydet ve 1 saniye sonra kapat</value>
+  </data>
+  <data name="confirmExit" xml:space="preserve">
+    <value>Uygulamadan çıkmak istiyor musunuz?</value>
+  </data>
+  <data name="confirmExitTitle" xml:space="preserve">
+    <value>Çıkılıyor</value>
+  </data>
+  <data name="confirmRestart" xml:space="preserve">
+    <value>Uygulamayı yeniden başlatmak istiyor musunuz?</value>
+  </data>
+  <data name="confirmRestartTitle" xml:space="preserve">
+    <value>Yeniden başlatılıyor</value>
+  </data>
+  <data name="defaultTimeBlockName" xml:space="preserve">
+    <value>Yeni Görev</value>
+  </data>
+  <data name="licenseTitle" xml:space="preserve">
+    <value>{0} 'ın Lisansı</value>
+  </data>
+  <data name="loginLabelEnterPassword" xml:space="preserve">
+    <value>Parolayı girin:</value>
+  </data>
+  <data name="loginTitle" xml:space="preserve">
+    <value>Giriş: {0}</value>
+  </data>
+  <data name="mainProjectPage" xml:space="preserve">
+    <value>Proje Sayfası</value>
+  </data>
+  <data name="mainProjectRepo" xml:space="preserve">
+    <value>Proje Deposu</value>
+  </data>
+  <data name="setCustomChartBackColor" xml:space="preserve">
+    <value>Özel grafik arkaplan rengi:</value>
+  </data>
+  <data name="setDaysInChart" xml:space="preserve">
+    <value>Grafikteki gün sayısı:</value>
+  </data>
+  <data name="setEndHourInDay" xml:space="preserve">
+    <value>Günün bitiş saati:</value>
+  </data>
+  <data name="setIndicatorBottomTriangle" xml:space="preserve">
+    <value>Şimdi göstergesi alt üçgen</value>
+  </data>
+  <data name="setIndicatorColor" xml:space="preserve">
+    <value>Şimdi göstergesi rengi:</value>
+  </data>
+  <data name="setIndicatorTopTriangle" xml:space="preserve">
+    <value>Şimdi göstergesi üst üçgen</value>
+  </data>
+  <data name="setShowDaysAgo" xml:space="preserve">
+    <value>Şu kadar gün önceyi göster (bugün = 0):</value>
+  </data>
+  <data name="setShowNowIndicator" xml:space="preserve">
+    <value>Şimdi göstergesi</value>
+  </data>
+  <data name="setStartHourInDay" xml:space="preserve">
+    <value>Günün başlama saati:</value>
+  </data>
+  <data name="setTabAppearance" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="setTabGeneral" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="settingCancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="settingConfirmExit" xml:space="preserve">
+    <value>Uygulamadan çıkarken sor</value>
+  </data>
+  <data name="settingConfirmRestart" xml:space="preserve">
+    <value>Uygulamayı yeniden başlatırken sor</value>
+  </data>
+  <data name="settingLoadDefaults" xml:space="preserve">
+    <value>Öntanımlı</value>
+  </data>
+  <data name="settingPasswordLogin" xml:space="preserve">
+    <value>Giriş için parola koruması:</value>
+  </data>
+  <data name="settingSaveChanges" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="settingsLoadedDefaults" xml:space="preserve">
+    <value>Öntanımlı değerler yüklendi.</value>
+  </data>
+  <data name="settingsSavedChanges" xml:space="preserve">
+    <value>Değişiklikler Kaydedildi.</value>
+  </data>
+  <data name="settingStartup" xml:space="preserve">
+    <value>Windows başlarken açıl</value>
+  </data>
+  <data name="settingsTitle" xml:space="preserve">
+    <value>{0} Ayarları</value>
+  </data>
+  <data name="settingsWarningStartup" xml:space="preserve">
+    <value>Uygulama konumunu veya adını değiştirmiş olabilirsiniz.
+Değişiklikleri kaydetmek için bu kutuyu tekrar işaretleyin.</value>
+  </data>
+  <data name="setUseSystemColorPicker" xml:space="preserve">
+    <value>Sistemin renk seçicisini kullan</value>
+  </data>
+  <data name="strAddRow" xml:space="preserve">
+    <value>Satır Ekle</value>
+  </data>
+  <data name="strAddRows" xml:space="preserve">
+    <value>Satırlar Ekle</value>
+  </data>
+  <data name="strAddTimeBlock" xml:space="preserve">
+    <value>Buraya Görev Ekle: {0}</value>
+  </data>
+  <data name="strAddTimeBlockTitle" xml:space="preserve">
+    <value>Görev Ekle</value>
+  </data>
+  <data name="strConfirmAddRow" xml:space="preserve">
+    <value>Satırı Ekle</value>
+  </data>
+  <data name="strConfirmAddRows" xml:space="preserve">
+    <value>Satırları Ekle</value>
+  </data>
+  <data name="strConfirmDelete" xml:space="preserve">
+    <value>Silmeyi Onayla</value>
+  </data>
+  <data name="strConfirmDeletes" xml:space="preserve">
+    <value>Silmeleri Onayla</value>
+  </data>
+  <data name="strConfirmOpenChart" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="strConfirmRename" xml:space="preserve">
+    <value>Yeniden Adlandır</value>
+  </data>
+  <data name="strDeleteRow" xml:space="preserve">
+    <value>Satır Sil</value>
+  </data>
+  <data name="strDeleteRows" xml:space="preserve">
+    <value>Satırları Sil</value>
+  </data>
+  <data name="stripAbout" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="stripEdit" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="stripExit" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="stripLicense" xml:space="preserve">
+    <value>Lisans</value>
+  </data>
+  <data name="stripRestart" xml:space="preserve">
+    <value>Yeniden Başlat</value>
+  </data>
+  <data name="stripSettings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="strOpenChartWithString" xml:space="preserve">
+    <value>Grafik aç</value>
+  </data>
+  <data name="strRename" xml:space="preserve">
+    <value>Satır Adını Düzenle</value>
+  </data>
+  <data name="timeblockCancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="timeblockColor" xml:space="preserve">
+    <value>Renk:</value>
+  </data>
+  <data name="timeblockConfirmChanges" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="timeblockEndTime" xml:space="preserve">
+    <value>Bitiş Zamanı:</value>
+  </data>
+  <data name="timeblockHatched" xml:space="preserve">
+    <value>Çizgili</value>
+  </data>
+  <data name="timeblockNameLabel" xml:space="preserve">
+    <value>İsim:</value>
+  </data>
+  <data name="timeblockStartTime" xml:space="preserve">
+    <value>Başlama Zamanı:</value>
+  </data>
+  <data name="timeblockTitle" xml:space="preserve">
+    <value>{0} Ayarları</value>
+  </data>
+  <data name="timeblockVisible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="toolAddMultiRows" xml:space="preserve">
+    <value>Çoklu Satır Ekle</value>
+  </data>
+  <data name="toolAddRow" xml:space="preserve">
+    <value>Satır Ekle</value>
+  </data>
+  <data name="toolAddSingleRow" xml:space="preserve">
+    <value>Tek Satır Ekle</value>
+  </data>
+  <data name="toolAdvanced" xml:space="preserve">
+    <value>Gelişmiş</value>
+  </data>
+  <data name="toolAdvancedCopyChart" xml:space="preserve">
+    <value>Tüm Kartı Panoya Kopyala</value>
+  </data>
+  <data name="toolAdvancedPasteChart" xml:space="preserve">
+    <value>Panodan Kart Al</value>
+  </data>
+  <data name="toolDelete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="toolDeleteAll" xml:space="preserve">
+    <value>Tüm Satırları Sil</value>
+  </data>
+  <data name="toolDeleteExceptThis" xml:space="preserve">
+    <value>Bu Hariç Hepsi: {0}</value>
+  </data>
+  <data name="toolDeleteRow" xml:space="preserve">
+    <value>Satır Sil</value>
+  </data>
+  <data name="toolDeleteRows" xml:space="preserve">
+    <value>Satırları Sil...</value>
+  </data>
+  <data name="toolDeleteTimeBlock" xml:space="preserve">
+    <value>Görevi Sil: {0}</value>
+  </data>
+  <data name="toolEditTimeBlockName" xml:space="preserve">
+    <value>Görev Adını Düzenle: {0}</value>
+  </data>
+  <data name="toolFile" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="toolFullScreen" xml:space="preserve">
+    <value>Tam Ekrana Geç</value>
+  </data>
+  <data name="toolHelp" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="toolHideTimeBlock" xml:space="preserve">
+    <value>Görevi Gizle/Göster: {0}</value>
+  </data>
+  <data name="toolNew" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="toolNewRow" xml:space="preserve">
+    <value>Yeni Satır</value>
+  </data>
+  <data name="toolNewRows" xml:space="preserve">
+    <value>Yeni Satırlar...</value>
+  </data>
+  <data name="toolNewTimeBlock" xml:space="preserve">
+    <value>Yeni ZamanBloğu</value>
+  </data>
+  <data name="toolOpenChart" xml:space="preserve">
+    <value>Dosyadan Aç</value>
+  </data>
+  <data name="toolQuickOperations" xml:space="preserve">
+    <value>Hızlı İşlemler: {0}</value>
+  </data>
+  <data name="toolSaveChanges" xml:space="preserve">
+    <value>Değişiklikleri Kaydet</value>
+  </data>
+  <data name="toolSelectedClearRow" xml:space="preserve">
+    <value>Temizle: {0}</value>
+  </data>
+  <data name="toolSelectedDeleteIcon" xml:space="preserve">
+    <value>İkon Sil: {0}</value>
+  </data>
+  <data name="toolSelectedDeleteRow" xml:space="preserve">
+    <value>Sil: {0}</value>
+  </data>
+  <data name="toolSelectedEditRow" xml:space="preserve">
+    <value>Adını Değiştir: {0}</value>
+  </data>
+  <data name="toolSelectedHideRow" xml:space="preserve">
+    <value>Gizle: {0}</value>
+  </data>
+  <data name="toolSelectedRow" xml:space="preserve">
+    <value>Seçilen: {0}</value>
+  </data>
+  <data name="toolSelectedSetIconRow" xml:space="preserve">
+    <value>İkon Seç: {0}</value>
+  </data>
+  <data name="toolSettingsTimeBlock" xml:space="preserve">
+    <value>{0} Görevi Ayarları</value>
+  </data>
+  <data name="toolSortAllRows" xml:space="preserve">
+    <value>Tüm Satırları Sırala</value>
+  </data>
+  <data name="toolSortRowsAZ" xml:space="preserve">
+    <value>Hepsini A'dan Z'ye</value>
+  </data>
+  <data name="toolSortRowsZA" xml:space="preserve">
+    <value>Hepsini Z'den A'ya</value>
+  </data>
+  <data name="tooltipSampleAddMultiRow" xml:space="preserve">
+    <value>Satır İsimlerini '|' karakteri ile ayırarak girin.
+Örnek: BenimGüzelSatırım | SatırBirİki | KüççükSatır | KötüSatır</value>
+  </data>
+  <data name="wrnClearRow" xml:space="preserve">
+    <value>Şunun İçindeki Tüm Görevler Temizlensin Mi: {0} ?</value>
+  </data>
+  <data name="wrnDeleteAllRows" xml:space="preserve">
+    <value>Tüm Satırları Silmek Mi İstiyorsunuz?</value>
+  </data>
+  <data name="wrnDeleteAllRowsExcept" xml:space="preserve">
+    <value>{0} Hariç Tüm Satırlar Silinsin Mi?</value>
+  </data>
+  <data name="wrnDeleteRow" xml:space="preserve">
+    <value>Şunu Silmek İstiyor Musunuz: {0}</value>
+  </data>
+  <data name="wrnDeleteTimeBlock" xml:space="preserve">
+    <value>Şunu Silmek İstiyor Musunuz: {0} ?</value>
+  </data>
+  <data name="wrnHide" xml:space="preserve">
+    <value>Şunu Gizlemek İstiyor Musunuz: {0} ?</value>
+  </data>
+  <data name="wrnHideTimeBlock" xml:space="preserve">
+    <value>Şunu Gizlemek İstiyor Musunuz: {0} ?</value>
+  </data>
+  <data name="wrnNoProblem" xml:space="preserve">
+    <value>Sorun Yok.</value>
+  </data>
+  <data name="wrnNothingChanged" xml:space="preserve">
+    <value>Hiçbir değişiklik yapılmadı.</value>
+  </data>
+  <data name="wrnNotValidString" xml:space="preserve">
+    <value>Geçerli değil.</value>
+  </data>
+  <data name="wrnOverwrite" xml:space="preserve">
+    <value>Üzerine Yazılsın Mı?</value>
+  </data>
+  <data name="wrnSameRowAvailable" xml:space="preserve">
+    <value>İşlenemedi. Aynı isimde bir satır zaten var. Başka bir isim verin.</value>
+  </data>
+  <data name="wrnSameRowsAvailable" xml:space="preserve">
+    <value>Şunlar işlenemedi: {0}
+Aynı isimde satırlar zaten vardı.</value>
+  </data>
+  <data name="wrnSaveCurrentChart" xml:space="preserve">
+    <value>Şu Anki Grafiği Kaydedilsin Mi?</value>
+  </data>
+  <data name="wrnSortAllRows" xml:space="preserve">
+    <value>Tüm Satırları Sıralamak İstiyor Musunuz?</value>
+  </data>
+</root>

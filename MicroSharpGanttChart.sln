@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroSharpGanttChart", "MicroSharpGanttChart\MicroSharpGanttChart.csproj", "{DA5AFAC4-3F89-474C-AE58-07736EBF6184}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSGC", "MSGC", "{96BDF1BB-894B-4992-8997-4926333E7485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GanttChart", "GanttChart\GanttChart.csproj", "{38AE4822-C813-44A8-A1A9-6DFD322006C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chart", "Chart", "{CA9AB4F0-5B3D-4110-B40A-1A1EC5A60B16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA5AFAC4-3F89-474C-AE58-07736EBF6184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5AFAC4-3F89-474C-AE58-07736EBF6184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5AFAC4-3F89-474C-AE58-07736EBF6184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5AFAC4-3F89-474C-AE58-07736EBF6184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38AE4822-C813-44A8-A1A9-6DFD322006C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38AE4822-C813-44A8-A1A9-6DFD322006C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38AE4822-C813-44A8-A1A9-6DFD322006C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38AE4822-C813-44A8-A1A9-6DFD322006C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA5AFAC4-3F89-474C-AE58-07736EBF6184} = {96BDF1BB-894B-4992-8997-4926333E7485}
+		{38AE4822-C813-44A8-A1A9-6DFD322006C6} = {CA9AB4F0-5B3D-4110-B40A-1A1EC5A60B16}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C52CBBD-81C5-452B-A8C7-C24871E8AAC5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutAskGoSource" xml:space="preserve">
+    <value>Do you want to go project page?</value>
+  </data>
+  <data name="aboutTitle" xml:space="preserve">
+    <value>About {0}</value>
+  </data>
+  <data name="askCount" xml:space="preserve">
+    <value>Ask Count When Important Process:</value>
+  </data>
+  <data name="chkSaveAndCloseInOneSec" xml:space="preserve">
+    <value>Save and close settings in 1 second</value>
+  </data>
+  <data name="confirmExit" xml:space="preserve">
+    <value>Do you really want to exit from App?</value>
+  </data>
+  <data name="confirmExitTitle" xml:space="preserve">
+    <value>Quiting</value>
+  </data>
+  <data name="confirmRestart" xml:space="preserve">
+    <value>Do you really want to restart App?</value>
+  </data>
+  <data name="confirmRestartTitle" xml:space="preserve">
+    <value>Restarting</value>
+  </data>
+  <data name="defaultTimeBlockName" xml:space="preserve">
+    <value>New Task</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="information" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="licenseTitle" xml:space="preserve">
+    <value>License of: {0}</value>
+  </data>
+  <data name="Local" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>local.resx;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Local_Designer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>local.designer.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="loginLabelEnterPassword" xml:space="preserve">
+    <value>Enter password:</value>
+  </data>
+  <data name="loginTitle" xml:space="preserve">
+    <value>Login: {0}</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mainProjectPage" xml:space="preserve">
+    <value>Project Page</value>
+  </data>
+  <data name="mainProjectRepo" xml:space="preserve">
+    <value>Project Repo</value>
+  </data>
+  <data name="setCustomChartBackColor" xml:space="preserve">
+    <value>Custom chart background color:</value>
+  </data>
+  <data name="setDaysInChart" xml:space="preserve">
+    <value>Days in chart:</value>
+  </data>
+  <data name="setEndHourInDay" xml:space="preserve">
+    <value>Day ending hour:</value>
+  </data>
+  <data name="setIndicatorBottomTriangle" xml:space="preserve">
+    <value>Indicator bottom triangle</value>
+  </data>
+  <data name="setIndicatorColor" xml:space="preserve">
+    <value>Indicator color:</value>
+  </data>
+  <data name="setIndicatorTopTriangle" xml:space="preserve">
+    <value>Indicator top triangle</value>
+  </data>
+  <data name="setShowDaysAgo" xml:space="preserve">
+    <value>Show days ago (today = 0) :</value>
+  </data>
+  <data name="setShowNowIndicator" xml:space="preserve">
+    <value>Show now indicator</value>
+  </data>
+  <data name="setStartHourInDay" xml:space="preserve">
+    <value>Day start hour:</value>
+  </data>
+  <data name="setTabAppearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="setTabGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="settingCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="settingConfirmExit" xml:space="preserve">
+    <value>Confirm when exiting app</value>
+  </data>
+  <data name="settingConfirmRestart" xml:space="preserve">
+    <value>Confirm when restarting app</value>
+  </data>
+  <data name="settingLoadDefaults" xml:space="preserve">
+    <value>Load Defaults</value>
+  </data>
+  <data name="settingPasswordLogin" xml:space="preserve">
+    <value>Password when logging in:</value>
+  </data>
+  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settingSaveChanges" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="settingsLoadedDefaults" xml:space="preserve">
+    <value>Loaded default values</value>
+  </data>
+  <data name="settingsSavedChanges" xml:space="preserve">
+    <value>Saved Changes.</value>
+  </data>
+  <data name="settingStartup" xml:space="preserve">
+    <value>Start at Windows Startup</value>
+  </data>
+  <data name="settingsTitle" xml:space="preserve">
+    <value>{0} Settings</value>
+  </data>
+  <data name="settingsWarningStartup" xml:space="preserve">
+    <value>Maybe you changed app location or name.
+Re check this box to save changes.</value>
+  </data>
+  <data name="setUseSystemColorPicker" xml:space="preserve">
+    <value>Use system color picker</value>
+  </data>
+  <data name="strAddRow" xml:space="preserve">
+    <value>Add Row</value>
+  </data>
+  <data name="strAddRows" xml:space="preserve">
+    <value>Add Rows</value>
+  </data>
+  <data name="strAddTimeBlock" xml:space="preserve">
+    <value>Add Task: {0}</value>
+  </data>
+  <data name="strAddTimeBlockTitle" xml:space="preserve">
+    <value>Add Task</value>
+  </data>
+  <data name="strConfirmAddRow" xml:space="preserve">
+    <value>Confirm Add Row</value>
+  </data>
+  <data name="strConfirmAddRows" xml:space="preserve">
+    <value>Confirm Add Rows</value>
+  </data>
+  <data name="strConfirmDelete" xml:space="preserve">
+    <value>Confirm Delete</value>
+  </data>
+  <data name="strConfirmDeletes" xml:space="preserve">
+    <value>Confirm Deletes</value>
+  </data>
+  <data name="strConfirmOpenChart" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="strConfirmRename" xml:space="preserve">
+    <value>Confirm Rename</value>
+  </data>
+  <data name="strDeleteRow" xml:space="preserve">
+    <value>Delete Row</value>
+  </data>
+  <data name="strDeleteRows" xml:space="preserve">
+    <value>Delete Rows</value>
+  </data>
+  <data name="stripAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="stripEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="stripExit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="stripLicense" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="stripRestart" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="stripSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="strOpenChartWithString" xml:space="preserve">
+    <value>Open Chart</value>
+  </data>
+  <data name="strRename" xml:space="preserve">
+    <value>Rename Row</value>
+  </data>
+  <data name="timeblockCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="timeblockColor" xml:space="preserve">
+    <value>Color:</value>
+  </data>
+  <data name="timeblockConfirmChanges" xml:space="preserve">
+    <value>Confirm Changes</value>
+  </data>
+  <data name="timeblockEndTime" xml:space="preserve">
+    <value>End Time:</value>
+  </data>
+  <data name="timeblockHatched" xml:space="preserve">
+    <value>Hatched</value>
+  </data>
+  <data name="timeblockNameLabel" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="timeblockStartTime" xml:space="preserve">
+    <value>Start Time:</value>
+  </data>
+  <data name="timeblockTitle" xml:space="preserve">
+    <value>{0} Settings</value>
+  </data>
+  <data name="timeblockVisible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="toolAddMultiRows" xml:space="preserve">
+    <value>Add Multiple Rows</value>
+  </data>
+  <data name="toolAddRow" xml:space="preserve">
+    <value>Add Row</value>
+  </data>
+  <data name="toolAddSingleRow" xml:space="preserve">
+    <value>Add Single Row</value>
+  </data>
+  <data name="toolAdvanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="toolAdvancedCopyChart" xml:space="preserve">
+    <value>Copy Chart to ClipBoard</value>
+  </data>
+  <data name="toolAdvancedPasteChart" xml:space="preserve">
+    <value>Paste Chart from ClipBoard</value>
+  </data>
+  <data name="toolDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="toolDeleteAll" xml:space="preserve">
+    <value>Delete All Rows</value>
+  </data>
+  <data name="toolDeleteExceptThis" xml:space="preserve">
+    <value>All Rows Except: {0}</value>
+  </data>
+  <data name="toolDeleteRow" xml:space="preserve">
+    <value>Delete Row</value>
+  </data>
+  <data name="toolDeleteRows" xml:space="preserve">
+    <value>Delete Rows</value>
+  </data>
+  <data name="toolDeleteTimeBlock" xml:space="preserve">
+    <value>Delete Task: {0}</value>
+  </data>
+  <data name="toolEditTimeBlockName" xml:space="preserve">
+    <value>Edit Task Name: {0}</value>
+  </data>
+  <data name="toolFile" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="toolFullScreen" xml:space="preserve">
+    <value>Go FullScreen</value>
+  </data>
+  <data name="toolHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="toolHideTimeBlock" xml:space="preserve">
+    <value>Hide/Show Task: {0}</value>
+  </data>
+  <data name="toolNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="toolNewRow" xml:space="preserve">
+    <value>New Row</value>
+  </data>
+  <data name="toolNewRows" xml:space="preserve">
+    <value>New Rows...</value>
+  </data>
+  <data name="toolNewTimeBlock" xml:space="preserve">
+    <value>New TimeBlock</value>
+  </data>
+  <data name="toolOpenChart" xml:space="preserve">
+    <value>Open Chart...</value>
+  </data>
+  <data name="toolQuickOperations" xml:space="preserve">
+    <value>Quick Operations: {0}</value>
+  </data>
+  <data name="toolSaveChanges" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="toolSelectedClearRow" xml:space="preserve">
+    <value>Clear Row: {0}</value>
+  </data>
+  <data name="toolSelectedDeleteIcon" xml:space="preserve">
+    <value>Delete Icon: {0}</value>
+  </data>
+  <data name="toolSelectedDeleteRow" xml:space="preserve">
+    <value>Delete Row: {0}</value>
+  </data>
+  <data name="toolSelectedEditRow" xml:space="preserve">
+    <value>Edit Row Name: {0}</value>
+  </data>
+  <data name="toolSelectedHideRow" xml:space="preserve">
+    <value>Hide Row: {0}</value>
+  </data>
+  <data name="toolSelectedRow" xml:space="preserve">
+    <value>Selected: {0}</value>
+  </data>
+  <data name="toolSelectedSetIconRow" xml:space="preserve">
+    <value>Set Icon: {0}</value>
+  </data>
+  <data name="toolSettingsTimeBlock" xml:space="preserve">
+    <value>{0} Settings</value>
+  </data>
+  <data name="toolSortAllRows" xml:space="preserve">
+    <value>Sort All Rows</value>
+  </data>
+  <data name="toolSortRowsAZ" xml:space="preserve">
+    <value>Sort All A-Z</value>
+  </data>
+  <data name="toolSortRowsZA" xml:space="preserve">
+    <value>Sort All Z-A</value>
+  </data>
+  <data name="tooltipSampleAddMultiRow" xml:space="preserve">
+    <value>Seperate your rownames with '|' character.
+Example: MyLittleRow 1 | SecondRoww | Nameless R O W | MoMeMo RoWWW23</value>
+  </data>
+  <data name="toRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wrnClearRow" xml:space="preserve">
+    <value>Do You Want To Clear All TimeBlocks In: {0} ?</value>
+  </data>
+  <data name="wrnDeleteAllRows" xml:space="preserve">
+    <value>Do You Want To Delete All Rows?</value>
+  </data>
+  <data name="wrnDeleteAllRowsExcept" xml:space="preserve">
+    <value>Delete All Rows Except: {0} ?</value>
+  </data>
+  <data name="wrnDeleteRow" xml:space="preserve">
+    <value>Do You Want To Delete: {0}</value>
+  </data>
+  <data name="wrnDeleteTimeBlock" xml:space="preserve">
+    <value>Do You Want To Delete: {0} ?</value>
+  </data>
+  <data name="wrnHide" xml:space="preserve">
+    <value>Do You Want To Hide: {0} ?</value>
+  </data>
+  <data name="wrnHideTimeBlock" xml:space="preserve">
+    <value>Do You Want To Hide: {0} ?</value>
+  </data>
+  <data name="wrnNoProblem" xml:space="preserve">
+    <value>No Problem.</value>
+  </data>
+  <data name="wrnNothingChanged" xml:space="preserve">
+    <value>Nothing has been changed.</value>
+  </data>
+  <data name="wrnNotValidString" xml:space="preserve">
+    <value>Not valid.</value>
+  </data>
+  <data name="wrnOverwrite" xml:space="preserve">
+    <value>Do You Want To Overwrite?</value>
+  </data>
+  <data name="wrnSameRowAvailable" xml:space="preserve">
+    <value>Cannot processed. Same named Row already exist. Please Give Another Name.</value>
+  </data>
+  <data name="wrnSameRowsAvailable" xml:space="preserve">
+    <value>Cannot processed: {0}
+Same named rows already exist.</value>
+  </data>
+  <data name="wrnSaveCurrentChart" xml:space="preserve">
+    <value>Do You Want To Save Current Chart?</value>
+  </data>
+  <data name="wrnSortAllRows" xml:space="preserve">
+    <value>Do You Want To Sort All Rows?</value>
+  </data>
+</root>
