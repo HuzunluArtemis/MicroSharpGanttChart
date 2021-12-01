@@ -1,9 +1,8 @@
-﻿using GanttChart;
-using Newtonsoft.Json;
+﻿// Copyright © 2021 HuzunluArtemis. Licensed under GPL-v3 (https://www.gnu.org/licenses/gpl-3.0.html)
+using GanttChart;
 using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
-using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 
@@ -11,12 +10,9 @@ namespace MicroSharpGanttChart
 {
     public partial class FormMain : Form
     {
-
-
         public FormMain()
         {
             InitializeComponent();
-
             InitChart();
         }
 
@@ -467,8 +463,6 @@ namespace MicroSharpGanttChart
 
 
         }
-
-
         private void FormMain_Load(object sender, EventArgs e)
         {
             this.StartPosition = FormStartPosition.CenterScreen;
@@ -479,7 +473,6 @@ namespace MicroSharpGanttChart
             Threads.GetIconsToRAM();
             Threads.ApplyIcons();
         }
-
 
         private void DoTranslation()
         {
@@ -543,8 +536,6 @@ namespace MicroSharpGanttChart
         {
             Locales.Local.Culture = new System.Globalization.CultureInfo("");
             Settings.Default.Language = 0;
-
-
             Threads.GetLanguage();
             DoTranslation();
         }
@@ -553,7 +544,6 @@ namespace MicroSharpGanttChart
         {
             Locales.Local.Culture = new System.Globalization.CultureInfo("tr-TR");
             Settings.Default.Language = 1;
-
             Threads.GetLanguage();
             DoTranslation();
 

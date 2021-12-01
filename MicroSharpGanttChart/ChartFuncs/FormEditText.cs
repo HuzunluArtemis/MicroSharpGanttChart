@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Copyright © 2021 HuzunluArtemis. Licensed under GPL-v3 (https://www.gnu.org/licenses/gpl-3.0.html)
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using MicroSharpGanttChart.HelperFuncs;
@@ -18,7 +19,7 @@ namespace MicroSharpGanttChart
         // 3 = rename timeblock
         // 4 = delete row 
         // 5 = delete rows
-        // open chart from clipboard
+        // 6 = open chart from clipboard
         public FormEditText()
         {
             InitializeComponent();
@@ -26,8 +27,6 @@ namespace MicroSharpGanttChart
 
         private void FormEditRowName_Load(object sender, EventArgs e)
         {
-
-
             this.MaximumSize = new Size(int.MaxValue, 94);
             this.MinimumSize = new Size(402, 94);
             this.StartPosition = FormStartPosition.CenterScreen;
@@ -43,10 +42,8 @@ namespace MicroSharpGanttChart
                 toolTip.SetToolTip(btnEdit, info);
                 toolTip.SetToolTip(label1, info);
             }
-            if (process == 6)
-            {
-                txtEdit.Multiline = true;
-            }
+            if (process == 6) txtEdit.Multiline = true;
+
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
@@ -55,7 +52,9 @@ namespace MicroSharpGanttChart
 
             if (!StringFuncs.IsValidString(txtEdit.Text))
             {
-                MessageBox.Show(Locales.Local.wrnNotValidString + Environment.NewLine + Locales.Local.wrnNothingChanged);
+                MessageBox.Show(Locales.Local.wrnNotValidString
+                    + Environment.NewLine
+                    + Locales.Local.wrnNothingChanged);
                 return;
             }
             switch (process)
@@ -92,10 +91,7 @@ namespace MicroSharpGanttChart
                         {
                             string itemm = StringFuncs.CleanString(item);
                             int rowcount = MainChart.CountSameText(itemm);
-                            if (rowcount > 0)
-                            {
-                                cannotadded.Add(itemm);
-                            }
+                            if (rowcount > 0) cannotadded.Add(itemm);
                             else
                             {
                                 Row row = new Row(itemm);
@@ -120,7 +116,8 @@ namespace MicroSharpGanttChart
                         }
                         catch (Exception ex)
                         {
-                            MessageBox.Show(ex.ToString() + Environment.NewLine + Environment.NewLine + Locales.Local.wrnNothingChanged);
+                            MessageBox.Show(ex.ToString() + Environment.NewLine +
+                                Environment.NewLine + Locales.Local.wrnNothingChanged);
                         }
                         break;
                     }
@@ -128,7 +125,6 @@ namespace MicroSharpGanttChart
                     {
                         try
                         {
-
                             Row typed = MainChart.FindRowWithText(txtEdit.Text);
                             if (typed == null)
                             {
@@ -139,7 +135,8 @@ namespace MicroSharpGanttChart
                         }
                         catch (Exception ex)
                         {
-                            MessageBox.Show(ex.ToString() + Environment.NewLine + Environment.NewLine + Locales.Local.wrnNothingChanged);
+                            MessageBox.Show(ex.ToString() + Environment.NewLine +
+                                Environment.NewLine + Locales.Local.wrnNothingChanged);
                         }
                         break;
                     }
@@ -152,14 +149,8 @@ namespace MicroSharpGanttChart
                         {
                             string itemm = StringFuncs.CleanString(item);
                             Row typed = MainChart.FindRowWithText(itemm);
-                            if (typed == null)
-                            {
-                                cannotadded.Add(itemm);
-                            }
-                            else
-                            {
-                                MainChart._ganttChart.Rows.Remove(typed);
-                            }
+                            if (typed == null) cannotadded.Add(itemm);
+                            else MainChart._ganttChart.Rows.Remove(typed);
 
 
                         }
@@ -174,7 +165,6 @@ namespace MicroSharpGanttChart
                     }
                 case 6:
                     {
-
                         if (Threads.AskForDeleteAllRows())
                         {
                             MainChart._ganttChart.Rows.Clear();
@@ -190,10 +180,7 @@ namespace MicroSharpGanttChart
                                 string abc = HelperFuncs.StringFuncs.FixIconError(item);
                                 deserializedRows.Add(Newtonsoft.Json.JsonConvert.DeserializeObject<Row>(abc));
                             }
-                            foreach (Row item in deserializedRows)
-                            {
-                                MainChart._ganttChart.Rows.Add(item);
-                            }
+                            foreach (Row item in deserializedRows) MainChart._ganttChart.Rows.Add(item);
                         }
 
                         break;
@@ -202,13 +189,8 @@ namespace MicroSharpGanttChart
             Threads.GetIconsToRAM();
             Threads.ApplyIcons();
             MainChart._ganttChart.UpdateView();
-
             this.Close();
-
-
         }
-
-
 
         private void txtEdit_TextChanged(object sender, EventArgs e)
         {
@@ -228,14 +210,11 @@ namespace MicroSharpGanttChart
                     toolTip.SetToolTip(txtEdit, Locales.Local.wrnNoProblem);
                 }
             }
-
-
         }
 
         private void txtEdit_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
-                btnEdit_Click(null, null);
+            if (e.KeyCode == Keys.Enter) btnEdit_Click(null, null);
         }
     }
 }

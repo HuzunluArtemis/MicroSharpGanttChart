@@ -1,4 +1,5 @@
-﻿using Microsoft.Win32;
+﻿// Copyright © 2021 HuzunluArtemis. Licensed under GPL-v3 (https://www.gnu.org/licenses/gpl-3.0.html)
+using Microsoft.Win32;
 using System;
 using System.Windows.Forms;
 

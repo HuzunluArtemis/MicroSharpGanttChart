@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿// Copyright © 2021 HuzunluArtemis. Licensed under GPL-v3 (https://www.gnu.org/licenses/gpl-3.0.html)
+using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;

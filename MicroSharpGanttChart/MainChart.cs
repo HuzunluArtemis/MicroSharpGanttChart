@@ -1,4 +1,5 @@
-﻿using GanttChart;
+﻿// Copyright © 2021 HuzunluArtemis. Licensed under GPL-v3 (https://www.gnu.org/licenses/gpl-3.0.html)
+using GanttChart;
 using System;
 
 namespace MicroSharpGanttChart
@@ -49,10 +50,8 @@ namespace MicroSharpGanttChart
 
         internal static int ValidateNotZeroOrNegative(int sample)
         {
-            if (sample <= 0)
-                return 1;
-            else
-                return sample;
+            if (sample <= 0) return 1;
+            else return sample;
         }
         internal static void ValidateDates()
         {
@@ -65,14 +64,10 @@ namespace MicroSharpGanttChart
             MainChart.ValidateNotZeroOrNegative(MainChart._ganttChart.EndHourInDay);
             MainChart.ValidateNotZeroOrNegative(MainChart._ganttChart.EndHourInDay);
             //
-            if (MainChart._ganttChart.StartHourInDay > 23)
-                MainChart._ganttChart.StartHourInDay = 23;
-            if (MainChart._ganttChart.StartHourInDay < 0)
-                MainChart._ganttChart.StartHourInDay = 0;
-            if (MainChart._ganttChart.EndHourInDay > 24)
-                MainChart._ganttChart.EndHourInDay = 24;
-            if (MainChart._ganttChart.EndHourInDay < 0)
-                MainChart._ganttChart.EndHourInDay = 0;
+            if (MainChart._ganttChart.StartHourInDay > 23) MainChart._ganttChart.StartHourInDay = 23;
+            if (MainChart._ganttChart.StartHourInDay < 0) MainChart._ganttChart.StartHourInDay = 0;
+            if (MainChart._ganttChart.EndHourInDay > 24) MainChart._ganttChart.EndHourInDay = 24;
+            if (MainChart._ganttChart.EndHourInDay < 0) MainChart._ganttChart.EndHourInDay = 0;
             if (MainChart._ganttChart.StartHourInDay >= MainChart._ganttChart.EndHourInDay)
             {
                 MainChart._ganttChart.StartHourInDay = Threads.StartHourInDay;

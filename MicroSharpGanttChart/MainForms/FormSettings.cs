@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Copyright © 2021 HuzunluArtemis. Licensed under GPL-v3 (https://www.gnu.org/licenses/gpl-3.0.html)
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 using ColorPickerWPF;

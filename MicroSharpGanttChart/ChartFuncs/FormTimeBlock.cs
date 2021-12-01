@@ -1,4 +1,5 @@
-﻿using ColorPickerWPF;
+﻿// Copyright © 2021 HuzunluArtemis. Licensed under GPL-v3 (https://www.gnu.org/licenses/gpl-3.0.html)
+using ColorPickerWPF;
 using GanttChart;
 using System;
 using System.Drawing;
@@ -12,8 +13,8 @@ namespace MicroSharpGanttChart.ChartFuncs
         internal Row row;
         internal TimeBlock TimeBlock;
         internal int process;
-        // 0=edit timeblock
-        // 1= add timeblock
+        // 0 = edit timeblock
+        // 1 = add timeblock
 
         public FormTimeBlock()
         {

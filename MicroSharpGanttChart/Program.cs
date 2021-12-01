@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Copyright © 2021 HuzunluArtemis. Licensed under GPL-v3 (https://www.gnu.org/licenses/gpl-3.0.html)
+using System;
 using System.Windows.Forms;
 
 namespace MicroSharpGanttChart
@@ -18,10 +19,8 @@ namespace MicroSharpGanttChart
 
         private static void DoLogin()
         {
-            if (Settings.Default.PasswordLogin)
-                Application.Run(new FormLogin());
-            else
-                Application.Run(new FormMain());
+            if (Settings.Default.PasswordLogin) Application.Run(new FormLogin());
+            else Application.Run(new FormMain());
         }
     }
 }

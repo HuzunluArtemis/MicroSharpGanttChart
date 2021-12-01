@@ -1,4 +1,5 @@
-﻿namespace MicroSharpGanttChart {
+﻿// Copyright © 2021 HuzunluArtemis. Licensed under GPL-v3 (https://www.gnu.org/licenses/gpl-3.0.html)
+namespace MicroSharpGanttChart {
     
     
     // This class allows you to handle specific events on the settings class:

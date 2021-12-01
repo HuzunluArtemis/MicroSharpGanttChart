@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿// Copyright © 2021 HuzunluArtemis. Licensed under GPL-v3 (https://www.gnu.org/licenses/gpl-3.0.html)
+using System.Windows.Forms;
 
 // Important ! Create the ExtensionMethods class as a "public static" class
 public static class ExtensionMethods
