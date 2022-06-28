@@ -44,7 +44,7 @@ To summarize, a Gantt chart shows you what has to be done (the activities) and w
 - Portable use
 - Password protection while opening app
 - Fully customizable
-- Multilang. If you want add your language, open pr.
+- Multilang. Turkish and English included. If you want add your language learn [how](https://stackoverflow.com/questions/32989100/how-to-make-multi-language-app-in-winforms) [to](https://www.codeproject.com/Tips/580043/How-to-make-a-multi-language-application-in-Csharp) and open pr
 - Fast operations
 
 ## Screenshots
