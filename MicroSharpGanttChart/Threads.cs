@@ -158,21 +158,28 @@ namespace MicroSharpGanttChart
 
         internal static void GetIconsToRAM()
         {
-            SQLiteConnection connect = new SQLiteConnection("data source=" + FullPathFilenameDB);
-            connect.Open();
-            SQLiteCommand fmd = connect.CreateCommand();
-            fmd.CommandText = @"SELECT DISTINCT * FROM Icons";
-            fmd.CommandType = System.Data.CommandType.Text;
-            SQLiteDataReader r = fmd.ExecuteReader();
-            while (r.Read())
+            try
             {
-                string rowname = Convert.ToString(r["RowName"]);
-                string iconadress = Convert.ToString(r["IconAdress"]);
-                _iconPath.Add(iconadress);
-                _iconRawName.Add(rowname);
-            }
+                SQLiteConnection connect = new SQLiteConnection("data source=" + FullPathFilenameDB);
+                connect.Open();
+                SQLiteCommand fmd = connect.CreateCommand();
+                fmd.CommandText = @"SELECT DISTINCT * FROM Icons";
+                fmd.CommandType = System.Data.CommandType.Text;
+                SQLiteDataReader r = fmd.ExecuteReader();
+                while (r.Read())
+                {
+                    string rowname = Convert.ToString(r["RowName"]);
+                    string iconadress = Convert.ToString(r["IconAdress"]);
+                    _iconPath.Add(iconadress);
+                    _iconRawName.Add(rowname);
+                }
 
-            connect.Close();
+                connect.Close();
+            }
+            catch (SQLiteException)
+            {
+                // ikonlar yok.
+            }
         }
 
         internal static string GetMainChartInString()
